@@ -1,0 +1,1 @@
+{"name":"equality-news","private":true,"type":"module","scripts":{"build":"node scripts/build-news.mjs","test":"node scripts/test-news.mjs"}}
