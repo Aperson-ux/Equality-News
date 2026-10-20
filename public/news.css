@@ -5,3 +5,10 @@
 
 /* Keep the supplied Bri Network broadcast graphic complete and readable. */
 body[data-story="nyn-bri-network"] .article-hero{grid-template-columns:1fr;gap:28px}body[data-story="nyn-bri-network"] .article-hero>div{max-width:950px}[data-story-card][data-id="nyn-bri-network"] .card-art .story-image{object-fit:contain}
+
+/* Keep the complete unconfirmed teaser visible on every screen. */
+body[data-story="equality-nyn-coming-soon"] .article-hero{grid-template-columns:1fr;gap:28px}
+body[data-story="equality-nyn-coming-soon"] .article-hero>div{max-width:950px}
+.feature-art.teaser{aspect-ratio:1672/940;min-height:0;height:auto}
+.feature-art.teaser .story-image,.card-art.teaser .story-image{object-fit:contain}
+.feature-art.teaser .art-label,.feature-art.teaser .art-caption{display:none}
